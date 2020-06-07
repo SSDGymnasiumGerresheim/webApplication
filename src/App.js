@@ -1,16 +1,19 @@
 import React from 'react';
 import Login from './pages/Login/login'
 import NavBar from './NavBar'
-import DashboardTemplate from './pages/dashboard/dashboardTemplate'
+import Dashboard from './pages/dashboard/dashboard'
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <NavBar/>
-      <DashboardTemplate/>
-    </div>
-  );
+    return ( <
+        Router >
+        <
+        Route exact path = "/"
+        component = { Dashboard }
+        />< /
+        Router >
+    );
 }
 
 export default App;
