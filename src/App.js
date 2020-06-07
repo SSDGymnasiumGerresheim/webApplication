@@ -9,6 +9,7 @@ function App() {
     return ( <
         Router >
         <
+        NavBar / > <
         Route exact path = "/"
         component = { Dashboard }
         />< /

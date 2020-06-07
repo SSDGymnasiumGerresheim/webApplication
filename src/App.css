@@ -27,7 +27,7 @@
 }
 
 #BoxRand {
-    margin-top: -87px;
+    margin-top: -55px;
     margin-right: 870px;
     display: inline-block;
     background-color: red;
@@ -35,9 +35,9 @@
     height: 300px;
 }
 
-#raum {
+#Raum {
     display: inline;
-    margin: 0px;
+    margin-left: 200px;
     padding: 0px;
 }
 
