@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+#navbar{
+  background-color: red;
+  height: 100px;
+  width: 100%;
+}
+
 #templateBox{
   margin-left: 100px;
   width: 900px;
